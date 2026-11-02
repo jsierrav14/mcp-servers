@@ -1,0 +1,23 @@
+[project]
+name = "mcp-crash-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jose Sierra", email = "jsierrav14@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-mcp-adapters>=0.3.2",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.19",
+    "python-dotenv>=1.2.4",
+    "uv>=0.13.6",
+]
+
+[project.scripts]
+mcp-crash-course = "mcp_crash_course:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,22 @@
+{
+  "name": "mcp-test-helpers",
+  "version": "1.0.0",
+  "description": "Test helpers for MCP quickstart examples",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.6"
+  }
+}
